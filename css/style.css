@@ -7,6 +7,9 @@
   margin-top: 10px;
   margin-left: 10px;
 }
+main{
+  color: #808080;
+}
 .menus{
   float: right;
   list-style:none;
@@ -64,7 +67,6 @@ span{
 }
 .news{
   margin-top: 50px;
-  color: #808080;
   margin-bottom: 100px;
 }
 .topic_news{
@@ -101,7 +103,8 @@ span{
 
 .about{
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
+ 
 }
 .topic_about{
   color: #CC0066 ;
@@ -126,3 +129,36 @@ span{
   margin-left: 400px;
   width: 60%;
 }
+.service{
+  margin: 0 auto;
+  width: 50%;
+}
+.topic_service{
+  color: #CC0066 ;
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+.title_service{
+  font-size: 30px;
+  margin: 30px 0;
+}
+.card{
+  width: 100%;
+  display: flex;
+}
+.block_1{
+  background-color: #CC0066;
+  text-align: center;
+}
+.block_2{
+  background-color: #C573B2;
+  height: 50%;
+}
+.block_2 p{
+  display: inline-block;
+}
+.block_3{
+  background-color: #C199C1;
+}
+
+
