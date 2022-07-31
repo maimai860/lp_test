@@ -145,40 +145,53 @@ span{
 }
 .card{
   width: 100%;
+  font-size: 20px;
   display: flex;
   color: white;
-  font-size: 20px;
 }
 .block_1{
   background-color: #CC0066;
-  text-align: center;
-  position: relative;
+  width: 50%;
+  padding-top: 20px;
+}
+.blocks{
+  width: 50%;
+
 }
 .block_2{
   background-color: #C573B2;
   display: flex;
-  width: 100%;
+ 
+  height: 50%;
 }
 .block_3{
   background-color: #C199C1;
   display: flex;
-  width: 100%;
+ 
+  height: 50%;
 }
 .lec_img1{
-  padding: 40px;
-  width: 50%;
-  margin: 0 auto;
+  display: block;
+  margin:  0 auto;
+  margin-bottom: 30px;
+}
+.lec_img2, .lec_img3{
+  margin: 20px;
+}
+.service_name{
+  font-size: 25px;
 }
 .service_info_1{
-  margin: 0 30px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
-.lec_img2,.lec_img3{
-  padding: 30px;
-  width: 100%;
+.lec_img1,.lec_img2,.lec_img3{
+  width: 30%;
 }
 .service_info_2, .service_info_3{
-  padding-top: 50px;
-  width: 100%;
+  margin-top: 20px;
+  padding-right:20px ;
 }
 .topic_blog{
   color: #CC0066 ;
@@ -310,10 +323,11 @@ table th{
 }
 .recruit h2, .interview h2{
   position: absolute; 
+  font-size: 25px;
   top: 50%;
   color: white;
-  left: 50%;
-  font-size: 25px;
+  display: inline;
+  left: 40%;
 }
 .contact{
   text-align: center;
